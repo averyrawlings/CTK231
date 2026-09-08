@@ -1,0 +1,29 @@
+h1 {
+    color:red;
+}
+.orangebg { 
+    background-color: orange;
+}
+.spanstyle {
+    color: rgb(0, 2, 128);
+    
+}
+a:link {
+    color: rgb(241, 28, 0);
+}
+a:visited {
+  color: #00ff40;
+}
+a:active {
+  color: #00ffff;
+}
+a:hover {
+  color: #fbff00;
+  text-decoration: underline;
+}
+.black {
+    background-color: black;
+}
+h2 {
+    color: rgb(255, 38, 0);
+}
