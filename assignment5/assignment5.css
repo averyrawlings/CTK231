@@ -1,0 +1,152 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    padding: 18px 8px 24px;
+    background-color: #6f96c5;
+    background-image: url("a5bg.png");
+    background-repeat: repeat;
+    color: #000;
+}
+
+.page-header {
+    margin: 0 0 22px;
+    padding: 22px 24px;
+    background-color: #fff;
+}
+
+.page-header h1 {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: clamp(1.8rem, 3.1vw, 2rem);
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.main-navigation {
+    margin: 0 0 24px;
+}
+
+.main-navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-navigation li {
+    flex: 0 1 150px;
+}
+
+.main-navigation a {
+    display: block;
+    min-height: 42px;
+    padding: 11px 12px;
+    background-color: #00008f;
+    color: #fff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus-visible {
+    background-color: #4545d8;
+}
+
+.main-content {
+    margin: 0 0 24px;
+    padding: 40px 24px 32px;
+    background-color: #fff;
+}
+
+.main-content h2 {
+    margin: 0 0 30px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #000;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.55rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.main-content p {
+    margin: 0 0 22px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+    line-height: 1.25;
+    text-align: justify;
+}
+
+.main-content p:last-child {
+    margin-bottom: 0;
+}
+
+.main-content a,
+.main-content a:visited {
+    color: #0000ee;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.main-content a:hover,
+.main-content a:focus-visible {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.page-footer {
+    margin: 0;
+    padding: 38px 42px;
+    border: 3px solid #fff;
+    background-color: #00008f;
+    color: #fff;
+}
+
+.page-footer p {
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.05rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 10px 6px 16px;
+    }
+
+    .page-header,
+    .main-content {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .main-navigation ul {
+        gap: 8px;
+    }
+
+    .main-navigation li {
+        flex: 1 1 140px;
+    }
+
+    .page-footer {
+        padding: 28px 20px;
+    }
+}
+.customtext {
+    color: rgb(4, 0, 245); 
+    
+}
