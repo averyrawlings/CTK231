@@ -1,0 +1,126 @@
+body {
+    background-color: #999999;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+#wrapper {
+    background-color: #FFFFFF;
+    border: 5px solid #004B9B;
+    width: 1200px;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 50px auto 105px;
+}
+header {
+    grid-column: span 12;
+    padding-left: 30px;
+    background: linear-gradient(#0788df, #0050a7);
+}
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 32px;
+}
+header a {
+    color: #70c8ff;
+    text-decoration: none;
+}
+nav {
+    grid-column: span 12;
+    background: linear-gradient(#0788df, #0050a7);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+nav li {
+    height: 50px;
+}
+nav a {
+    display: block;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 13px 30px;
+    border-right: 5px solid #003f85;
+    color: #70c8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a.active {
+    color: #FFFFFF;
+}
+nav a:hover {
+    background: linear-gradient(#0050a7, #0788df);
+    color: #FFFFFF;
+}
+aside {
+    background-color: #ADD8E6;
+    grid-column: span 4;
+    padding: 0 16px;
+}
+aside h2, main h2 {
+    color: #003f91;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    border-bottom: 3px solid #004B9B;
+    padding-bottom: 6px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.sidebartext {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 18px;
+}
+main {
+    background-color: #FFFFFF;
+    grid-column: span 8;
+    padding: 0 16px;
+    font-size: 16px;
+    line-height: 18px;
+}
+main h2 {
+    margin-bottom: 20px;
+}
+.float {
+    float: left;
+    width: 400px;
+    height: auto;
+    margin: 0 20px 10px 0;
+    border: 2px solid #004B9B;
+}
+main p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+main p a {
+    color: #D21A0A;
+    font-weight: bold;
+    text-decoration: none;
+}
+main p a:hover {
+    text-decoration: underline;
+}
+.clearfloat {
+    clear: both;
+}
+footer {
+    grid-column: span 12;
+    background-color: #D71900;
+    border-top: 5px solid #004B9B;
+    padding: 10px 12px;
+}
+footer img {
+    width: 280px;
+    height: auto;
+}
