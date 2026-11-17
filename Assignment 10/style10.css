@@ -1,0 +1,78 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+#wrapper {
+    background-color: #FFFFFF;
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    background-color: #333333;
+    height: 280px;
+    margin: 27px 24px 50px 24px;
+    padding: 49px 48px;
+    box-sizing: border-box;
+}
+header h1 {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 76px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 22px 10px;
+}
+main {
+    padding: 0 24px;
+}
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+.videography, .audio {
+    height: 1240px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center top;
+}
+.videography {
+    background-image: url("Rectangle 3.png");
+}
+.audio {
+    background-image: url("Rectangle 7.png");
+}
+.portfolio h2 {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin: 42px 28px 0 28px;
+    padding: 15px 5px;
+}
+.dropicon {
+    display: block;
+    width: 330px;
+    height: auto;
+    margin: 18px auto 0 auto;
+}
+.gallery {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 520px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
