@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fancy Example</title>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="fancy.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>Fancy Example</h1>
+
+
+    <a href="icecream.jpg" data-fancybox="gallery" data-caption="Ice Cream">
+  <img src="icecream_thumb.jpg" alt="Gallery image 1" />
+</a>
+
+<a href="patch.jpg" data-fancybox="gallery" data-caption="Patch">
+  <img src="patch_thumb.jpg" alt="Gallery image 2" />
+</a>
+
+<a href="water.jpg" data-fancybox="gallery" data-caption="Water">
+  <img src="water_thumb.jpg" alt="Gallery image 3" />
+</a>
+
+  </div>
+
+<script>
+  Fancybox.bind("[data-fancybox]", {
+    // Your custom options
+  });
+</script>
+
+</body>
+</html>
